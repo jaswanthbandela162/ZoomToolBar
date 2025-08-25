@@ -1,0 +1,34 @@
+.container {
+    border: 2px solid black;
+    height: 100px;
+    width: 1000px;
+    border-radius: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 40px;
+    margin-left: 250px;
+    margin-top: 250px;
+}
+.container > div {
+    display: flex;
+    flex-flow: column wrap;  
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+.bi{
+    width: 40px;
+    height: 40px;
+    cursor: pointer; 
+}
+.bi-share-fill{
+    color: #08CB00;
+}
+.container > div:hover {
+    transform: scale(1.1);
+    color: #C5B0CD; 
+}
+
